@@ -504,6 +504,7 @@ void __init __weak thread_stack_cache_init(void)
 }
 #endif
 
+<<<<<<< HEAD
 /* Report memory auto-initialization states for this boot. */
 static void __init report_meminit(void)
 {
@@ -529,6 +530,8 @@ static void __init report_meminit(void)
 		pr_info("mem auto-init: clearing system memory may take some time...\n");
 }
 
+=======
+>>>>>>> b91029a3332b7f01a79925a2e57105785602c7cc
 /*
  * Set up kernel memory allocators
  */
